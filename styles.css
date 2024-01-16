@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Arial', sans-serif;
+
+}
+
+
+.flexbox-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 0;
+    background-color: black;
+    color: #fff;
+}
+
+header nav {
+    margin-top: 50px;
+}
+
+
+
+header ul li {
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+.flexbox-containers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image1 img{
+    width: 100%;
+    max-width: 1000px; 
+    height: auto;
+}
+
+.image2 img {
+    display: flex;
+    margin: 50px
+    
+}
+ .text2{
+    display: flex;
+    width: 200px;
+    height: 65px;
+    border: 0px solid;
+    overflow: visible;
+    float: right;
+    margin-top: -200px;
+
+ }
+ 
+ .btn1 { 
+    border: 10px;
+    height: 70px;
+    background-color: gold;
+    color: white;
+ }
+
+
+
+ .image3 {
+    display: flex;
+    margin: 5%
+ }
+ 
+ .text3 {
+    display: flex;
+    float: right;
+    padding: 30px;
+    width: 200px;
+   height: 65px;
+   border: 0px solid;
+   overflow: visible;
+ }
+ .btn2 {
+    border: 10px;
+    height: 70px;
+    background-color: gold;
+    color: white;
+ }
+
+ .image4 { 
+    display: flex;
+    margin: 5%
+ }
+
+ .text4 {
+    display: flex;
+    float: right;
+    padding: 30px;
+    width: 200px;
+    height: 65px;
+    border: 0px solid;
+    overflow: visible;
+ }
+
+ .btn3 {
+    border: 10px;
+    height: 70px;
+    background-color: gold;
+    color: white;
+ }
+
+ 
+ .image5 { 
+    display: flex;
+    margin: 5%;
+   
+    bottom: 10px;
+    left: 10px;
+ }
+
+
+ .text5 {
+    display: flex;
+    float: right;
+    padding: 30px;
+    width: 200px;
+    height: 65px;
+    border: 0px solid;
+    overflow: visible;
+ }
+
+ .btn4 {
+    border: 10px;
+    height: 70px;
+    background-color: gold;
+    color: white;
+ }
+
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: top;
+    padding: 100px;
+    margin-top: 10px;
+    
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 60px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
